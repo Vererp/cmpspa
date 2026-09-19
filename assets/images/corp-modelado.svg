@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#000000" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#d4af37" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#d4af37" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#grad)" />
+  <rect width="800" height="500" fill="url(#glow)" />
+  
+  <!-- Decorative spa lines -->
+  <circle cx="400" cy="210" r="140" fill="none" stroke="#d4af37" stroke-width="1.5" opacity="0.25" />
+  <circle cx="400" cy="210" r="180" fill="none" stroke="#d4af37" stroke-width="1" stroke-dasharray="6 6" opacity="0.2" />
+  
+  <!-- Lotus emblem -->
+  <path d="M400 130 C410 160, 440 180, 450 200 C430 205, 410 195, 400 185 C390 195, 370 205, 350 200 C360 180, 390 160, 400 130 Z" fill="#d4af37" opacity="0.85" />
+  <path d="M400 150 C415 175, 455 190, 470 215 C445 220, 420 205, 400 195 C380 205, 355 220, 330 215 C345 190, 385 175, 400 150 Z" fill="#d4af37" opacity="0.5" />
+  
+  <!-- Subtle typography -->
+  <text x="400" y="320" font-family="'Playfair Display', Georgia, serif" font-size="22" fill="#d4af37" letter-spacing="4" text-anchor="middle" font-weight="600">CMP SPA</text>
+  <text x="400" y="360" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="28" fill="#ffffff" font-weight="bold" text-anchor="middle">Modelado & Cavitación</text>
+  <text x="400" y="395" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-size="16" fill="#d4af37" letter-spacing="2" text-anchor="middle">CUIDADO CORPORAL</text>
+</svg>

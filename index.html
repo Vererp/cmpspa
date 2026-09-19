@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CMP SPA | Clínica de Estética Facial, Corporal & Bienestar</title>
+  <meta name="description" content="CMP SPA - Clínica especializada en tratamientos faciales profundos, rejuvenecimiento cutáneo, modelado corporal y masajes de relajación. Belleza, Bienestar y Equilibrio.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/jpeg" href="logo.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Hoja de Estilos Principal -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       BARRA INFORMATIVA SUPERIOR (TOP BAR)
+       ========================================================================== -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-info">
+        <div class="top-info-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          <span>Citas & Informes: +52 55 1234 5678</span>
+        </div>
+        <div class="top-info-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <polyline points="12 6 12 12 16 14"/>
+          </svg>
+          <span>Lun - Sáb: 9:00 AM - 8:00 PM</span>
+        </div>
+      </div>
+      <div class="top-socials">
+        <span>Síguenos:</span>
+        <a href="https://instagram.com/cmpspa" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+        <a href="https://facebook.com/cmpspa" target="_blank" rel="noopener" aria-label="Facebook">Facebook</a>
+        <a href="https://tiktok.com/@cmpspa" target="_blank" rel="noopener" aria-label="TikTok">TikTok</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER Y MENU DE NAVEGACION
+       ========================================================================== -->
+  <header class="header">
+    <div class="container navbar">
+      <!-- Brand Logo -->
+      <a href="#inicio" class="brand-logo">
+        <img src="logo.jpg" alt="CMP SPA Logo">
+        <div class="brand-text">
+          <span class="brand-name">CMP SPA</span>
+          <span class="brand-tagline">BELLEZA • BIENESTAR • EQUILIBRIO</span>
+        </div>
+      </a>
+
+      <!-- Menu Principal -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link">Servicios</a></li>
+          <li><a href="#promociones" class="nav-link">Promociones</a></li>
+          <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+          <li><a href="#testimonios" class="nav-link">Testimonios</a></li>
+          <li><a href="#faq" class="nav-link">FAQ</a></li>
+          <li><a href="#contacto" class="nav-link">Contacto</a></li>
+        </ul>
+      </nav>
+
+      <!-- Acciones de Header -->
+      <div class="header-actions">
+        <!-- Acceso Rápido al Buscador -->
+        <button class="header-search-btn" id="headerSearchBtn" aria-label="Buscar tratamientos">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+          </svg>
+        </button>
+
+        <a href="#contacto" class="btn btn-primary">Reservar Cita</a>
+
+        <!-- Botón menú móvil -->
+        <div class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Abrir menú">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg-glow"></div>
+      <div class="container hero-content-grid">
+        <div class="hero-text-box">
+          <div class="hero-badge">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+            </svg>
+            <span>Clínica Especializada en Estética Integral</span>
+          </div>
+
+          <h1 class="hero-title">
+            Tu piel merece el más distinguido <span>cuidado profesional</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Descubre tratamientos faciales avanzados, modelado corporal y masajes terapéuticos diseñados a la medida para renovar tu belleza y restaurar tu equilibrio interior.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#servicios" class="btn btn-primary">Ver Servicios & Precios</a>
+            <a href="https://wa.me/525512345678" target="_blank" rel="noopener" class="btn btn-secondary">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+              </svg>
+              Agendar por WhatsApp
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">+1,200</span>
+              <span class="stat-label">Clientes Satisfechos</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Personalizado</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">8+ Años</span>
+              <span class="stat-label">De Experiencia</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="hero-image-wrapper">
+            <img src="logo.jpg" alt="CMP SPA Ambiente de Relax">
+          </div>
+
+          <div class="hero-floating-card">
+            <div class="floating-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <div class="floating-text">
+              <h4>Garantía de Calidad</h4>
+              <p>Cosmética Médica & Tecnología Certificada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BANNER DE PROMOCIONES Y PAQUETES
+         ========================================================================== -->
+    <section class="promo-banner" id="promociones">
+      <div class="container">
+        <div class="promo-grid reveal-on-scroll">
+          <div>
+            <span class="section-subtitle">Promoción del Mes</span>
+            <h2 class="promo-title">Glow Ritual Signature - Paquete VIP</h2>
+            <p class="promo-desc">
+              Combina una Limpieza Facial Profunda Premium con mascarilla de colágeno + Masaje Relajante Holístico de 60 minutos con aromaterapia por precio especial.
+            </p>
+          </div>
+          <div>
+            <a href="#contacto" class="btn btn-primary">Aprovechar Promo ($1,490 MXN)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         CATALOGO DE SERVICIOS & BARRA DE BÚSQUEDA FUNCIONAL
+         ========================================================================== -->
+    <section class="services-section section-padding" id="servicios">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Nuestro Menú de Tratamientos</span>
+          <h2 class="section-title">Servicios de Cuidado Facial & Corporal</h2>
+          <p class="section-description">
+            Explora nuestro menú dinámico de tratamientos diseñados por especialistas. Puedes buscar por nombre o filtrar por categoría.
+          </p>
+        </div>
+
+        <!-- Caja de Búsqueda y Filtros -->
+        <div class="search-filter-box reveal-on-scroll">
+          <!-- Buscador en tiempo real -->
+          <div class="search-wrapper">
+            <svg class="search-icon-left" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"/>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <input 
+              type="text" 
+              class="search-input" 
+              id="searchInput" 
+              placeholder="Buscar servicio (ej. 'HydraFacial', 'Masaje', 'Peeling', 'Colágeno')..."
+              aria-label="Buscar servicio"
+            >
+            <button class="search-clear-btn" id="searchClearBtn" style="display: none;" aria-label="Limpiar búsqueda">✕</button>
+          </div>
+
+          <!-- Pillas / Tabs de Filtro de Categoría -->
+          <div class="category-tabs" id="categoryTabs">
+            <!-- Renderizado dinámico desde JS -->
+          </div>
+        </div>
+
+        <!-- Indicador de cantidad de resultados -->
+        <div class="search-results-info">
+          <span id="resultsCount">Cargando servicios...</span>
+          <span>Haz clic en <strong>Ver Detalles</strong> para más información</span>
+        </div>
+
+        <!-- Grid Contenedor de Servicios -->
+        <div class="services-grid" id="servicesGrid">
+          <!-- Renderizado dinámico desde JS con los objetos de SERVICES_DATA -->
+        </div>
+
+        <!-- Estado cuando no hay coincidencias de búsqueda -->
+        <div class="empty-state" id="emptyState" style="display: none;">
+          <svg class="empty-state-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            <line x1="8" y1="11" x2="14" y2="11"/>
+          </svg>
+          <h3>No encontramos servicios que coincidan</h3>
+          <p>Intenta buscar con otra palabra clave como "facial", "masaje", "radiofrecuencia" o selecciona "Todos los Servicios".</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         MODAL DE DETALLES DE SERVICIO (POPUP)
+         ========================================================================== -->
+    <div class="modal" id="serviceModal" role="dialog" aria-modal="true">
+      <div class="modal-content">
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Cerrar modal">✕</button>
+        <div class="modal-header-image">
+          <img id="modalImage" src="" alt="Tratamiento CMP SPA">
+        </div>
+        <div class="modal-body">
+          <span class="modal-category" id="modalCategory">Categoría</span>
+          <h2 class="modal-title" id="modalTitle">Título del Servicio</h2>
+          
+          <div class="modal-price-duration">
+            <div class="modal-price" id="modalPrice">$0 MXN</div>
+            <div class="modal-duration" id="modalDuration">60 min</div>
+          </div>
+
+          <p class="modal-description" id="modalDescription">Descripción extendida...</p>
+
+          <h3 class="modal-subtitle">Beneficios Principales</h3>
+          <ul class="benefits-list" id="modalBenefits">
+            <!-- Beneficios dinámicos -->
+          </ul>
+
+          <div class="recommendations-box" id="modalRecommendations">
+            <h4 style="font-size: 0.95rem; font-weight: 700; margin-bottom: 0.35rem; color: #5a4816;">Frecuencia & Recomendaciones:</h4>
+            <p style="margin: 0;">Recomendación técnica...</p>
+          </div>
+
+          <div class="modal-footer-actions">
+            <button class="btn btn-secondary" onclick="document.getElementById('modalCloseBtn').click()">Cerrar</button>
+            <a href="#" target="_blank" rel="noopener" class="btn btn-primary" id="modalBookWhatsappBtn">
+              Agendar este Servicio por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==========================================================================
+         SECCION SOBRE NOSOTROS / POR QUE ELEGIR CMP SPA
+         ========================================================================== -->
+    <section class="about-section section-padding" id="nosotros">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-text reveal-on-scroll">
+            <span class="section-subtitle">Experiencia & Profesionalismo</span>
+            <h2 class="section-title dark">¿Por qué elegir CMP SPA?</h2>
+            <p class="section-description dark">
+              En CMP SPA fusionamos la ciencia dermatológica con la calidez del bienestar holístico. Nuestro compromiso es ofrecerte un diagnóstico transparente y resultados visibles desde tu primera sesión.
+            </p>
+
+            <div class="about-features">
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                    <polyline points="22 4 12 14.01 9 11.01"/>
+                  </svg>
+                </div>
+                <h4>Especialistas Certificados</h4>
+                <p>Personal altamente capacitado en cosmiatría y aparatología estética.</p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"/>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/>
+                  </svg>
+                </div>
+                <h4>Aparatología de Vanguardia</h4>
+                <p>Equipamiento moderno y seguro que garantiza efectividad no invasiva.</p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                  </svg>
+                </div>
+                <h4>Cosmética Premium</h4>
+                <p>Uso exclusivo de principios activos aprobados dermatológicamente.</p>
+              </div>
+
+              <div class="feature-card">
+                <div class="feature-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                  </svg>
+                </div>
+                <h4>Ambiente Sanitario Relax</h4>
+                <p>Cabinas privadas, armonizadas con aromaterapia y sanitización rigurosa.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-image-stack reveal-on-scroll">
+            <div class="about-image-main">
+              <img src="logo.jpg" alt="CMP SPA Diagnóstico de Piel">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TESTIMONIOS
+         ========================================================================== -->
+    <section class="testimonials-section section-padding" id="testimonios">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Opiniones de Nuestros Clientes</span>
+          <h2 class="section-title">Experiencias que nos Respaldan</h2>
+          <p class="section-description">
+            Conoce los testimonios de quienes han confiado el cuidado de su rostro y cuerpo a CMP SPA.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <div class="testimonial-card reveal-on-scroll">
+            <div class="stars-row">★★★★★</div>
+            <p class="testimonial-quote">
+              "La limpieza facial profunda me dejó la piel increíblemente luminosa. La atención desde que llegas es sumamente profesional y relajante. ¡Definitivamente vuelvo cada mes!"
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">MC</div>
+              <div class="author-info">
+                <h4>Mariana Cárdenas</h4>
+                <span>Tratamiento HydraFacial</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal-on-scroll">
+            <div class="stars-row">★★★★★</div>
+            <p class="testimonial-quote">
+              "El masaje descontracturante me liberó de una tensión severa en la espalda. Salí renovado. El ambiente de la cabina y la aromaterapia son de 10 estrellas."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">RG</div>
+              <div class="author-info">
+                <h4>Roberto Gutiérrez</h4>
+                <span>Masaje Descontracturante</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal-on-scroll">
+            <div class="stars-row">★★★★★</div>
+            <p class="testimonial-quote">
+              "Tomé el paquete Dúo con mi mamá y fue el mejor regalo. Excelente trato, instalaciones súper limpias y productos de alta calidad."
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar">SL</div>
+              <div class="author-info">
+                <h4>Sofia López</h4>
+                <span>Paquete Dúo Spa</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PREGUNTAS FRECUENTES (FAQ)
+         ========================================================================== -->
+    <section class="faq-section section-padding" id="faq">
+      <div class="container">
+        <div class="section-header reveal-on-scroll">
+          <span class="section-subtitle">Resuelve tus Dudas</span>
+          <h2 class="section-title">Preguntas Frecuentes</h2>
+        </div>
+
+        <div class="faq-container reveal-on-scroll">
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Con cuánta anticipación debo agendar mi cita?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Recomendamos agendar con al menos 24 a 48 horas de anticipación para asegurar el horario de tu preferencia, especialmente para fines de semana o paquetes dobles.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Cómo sé cuál es el tratamiento facial adecuado para mi tipo de piel?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Antes de iniciar cualquier sesión realizamos una evaluación del estado de tu piel para recomendarte el servicio o la combinación de sueros más efectiva para tus necesidades.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Qué métodos de pago aceptan en la clínica?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Aceptamos pago en efectivo, tarjetas de débito/crédito (Visa, Mastercard, American Express) y transferencias bancarias directas.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question">
+              <span>¿Puedo cancelar o reprogramar mi cita?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Sí, puedes reprogramar o cancelar tu cita notificándonos al menos 12 horas antes por WhatsApp para reasignar tu espacio sin costo adicional.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SECCION DE CONTACTO Y AGENDAMIENTO
+         ========================================================================== -->
+    <section class="booking-section section-padding" id="contacto">
+      <div class="container">
+        <div class="booking-grid">
+          <!-- Información de Contacto -->
+          <div class="booking-info-box reveal-on-scroll">
+            <div>
+              <span class="section-subtitle">Visítanos o Chatea con Nosotros</span>
+              <h2 class="section-title dark">Agenda tu Experiencia de Bienestar</h2>
+              <p class="section-description dark">
+                Envíanos tu solicitud y nuestro equipo de atención se pondrá en contacto contigo de forma inmediata.
+              </p>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-icon-bg">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Ubicación</h4>
+                <p>Av. Paseo de la Reforma 300, Col. Juárez, Ciudad de México</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-icon-bg">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Teléfono & WhatsApp</h4>
+                <p>+52 55 1234 5678</p>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="contact-icon-bg">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div>
+                <h4>Horario de Atención</h4>
+                <p>Lunes a Sábado: 9:00 AM - 8:00 PM<br>Domingos: 10:00 AM - 4:00 PM</p>
+              </div>
+            </div>
+
+            <!-- Mapa Integrado -->
+            <div class="map-container">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.5396001099837!2d-99.1676646850933!3d19.42702058688849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff35f5bd15a3%3A0x2f6022e37452d3a3!2sPaseo%20de%20la%20Reforma!5e0!3m2!1ses!2smx!4v1680000000000!5m2!1ses!2smx"
+                allowfullscreen="" 
+                loading="lazy" 
+                title="Ubicación de CMP SPA">
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Formulario de Agendamiento -->
+          <div class="booking-form-wrapper reveal-on-scroll">
+            <h3 style="font-family: var(--font-heading); font-size: 1.8rem; margin-bottom: 1.5rem; color: #ffffff;">
+              Solicitar Cita en Línea
+            </h3>
+            
+            <form id="bookingForm">
+              <div class="form-group">
+                <label for="bookingName" class="form-label">Nombre Completo *</label>
+                <input type="text" id="bookingName" class="form-control" placeholder="Ej. Ana María García" required>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="bookingPhone" class="form-label">Teléfono / WhatsApp *</label>
+                  <input type="tel" id="bookingPhone" class="form-control" placeholder="Ej. 55 1234 5678" required>
+                </div>
+                <div class="form-group">
+                  <label for="bookingDate" class="form-label">Fecha Deseada *</label>
+                  <input type="date" id="bookingDate" class="form-control" required>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingServiceSelect" class="form-label">Tratamiento de Interés *</label>
+                <select id="bookingServiceSelect" class="form-control" required>
+                  <!-- Se llena dinámicamente desde JS -->
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="bookingNotes" class="form-label">Notas Adicionales (opcional)</label>
+                <textarea id="bookingNotes" class="form-control" rows="3" placeholder="Menciona algún requerimiento especial o tipo de piel..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Enviar Solicitud por WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       BOTÓN FLOTANTE DE WHATSAPP
+       ========================================================================== -->
+  <a href="https://wa.me/525512345678?text=Hola%20CMP%20SPA,%20me%20gustar%C3%ADa%20solicitar%20informaci%C3%B3n" 
+     target="_blank" 
+     rel="noopener" 
+     class="whatsapp-float" 
+     aria-label="Contactar por WhatsApp">
+    <span class="whatsapp-tooltip">¿Dudas? Chatea con nosotros</span>
+    <svg viewBox="0 0 24 24">
+      <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+    </svg>
+  </a>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#inicio" class="brand-logo">
+            <img src="logo.jpg" alt="CMP SPA Logo">
+            <div class="brand-text">
+              <span class="brand-name">CMP SPA</span>
+              <span class="brand-tagline">BELLEZA • BIENESTAR • EQUILIBRIO</span>
+            </div>
+          </a>
+          <p>
+            Clínica especializada en el cuidado facial y corporal. Ofrecemos tratamientos no invasivos de última generación adaptados a tus objetivos de belleza y relajación.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Navegación</h4>
+          <ul class="footer-links">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#promociones">Promociones</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Servicios</h4>
+          <ul class="footer-links">
+            <li><a href="#servicios">Tratamientos Faciales</a></li>
+            <li><a href="#servicios">Cuidado Corporal</a></li>
+            <li><a href="#servicios">Rejuvenecimiento</a></li>
+            <li><a href="#servicios">Masajes & Relax</a></li>
+            <li><a href="#servicios">Paquetes Dúo</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contacto</h4>
+          <p style="margin-bottom: 0.5rem;">Av. Paseo de la Reforma 300, Polanco, CDMX</p>
+          <p style="margin-bottom: 0.5rem;">Tel: +52 55 1234 5678</p>
+          <p style="color: var(--color-primary-gold);">contacto@cmpspa.com</p>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 CMP SPA. Todos los derechos reservados.</p>
+        <p>Alojado con excelencia en GitHub Pages.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts JavaScript -->
+  <script src="js/services-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
