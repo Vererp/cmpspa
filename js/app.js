@@ -123,7 +123,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     servicesGrid.innerHTML = state.filteredServices.map(service => {
       const badgeHtml = service.badge ? `<span class="card-badge">${service.badge}</span>` : '';
-      const whatsappMessage = encodeURIComponent(`${CLINIC_INFO.whatsappMessage}${service.title}`);
+      const msgPrefix = CLINIC_INFO.whatsappMessage || "Hola, me gustaría agendar el servicio: ";
+      const whatsappMessage = encodeURIComponent(`${msgPrefix}${service.title}`);
       const whatsappUrl = `https://wa.me/${CLINIC_INFO.whatsapp}?text=${whatsappMessage}`;
 
       return `
@@ -202,7 +203,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // WhatsApp CTA button
-    const whatsappMessage = encodeURIComponent(`${CLINIC_INFO.whatsappMessage}${service.title}`);
+    const msgPrefix = CLINIC_INFO.whatsappMessage || "Hola, me gustaría agendar el servicio: ";
+    const whatsappMessage = encodeURIComponent(`${msgPrefix}${service.title}`);
     modalBookWhatsappBtn.href = `https://wa.me/${CLINIC_INFO.whatsapp}?text=${whatsappMessage}`;
 
     serviceModal.classList.add('active');

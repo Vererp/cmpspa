@@ -313,6 +313,8 @@ const CLINIC_INFO = {
   tagline: "BELLEZA • BIENESTAR • EQUILIBRIO",
   phone: "+525662850515",
   whatsapp: "525662850515", // Reemplazar con tu número de WhatsApp con código de país sin +
+  whatsappMessage:
+    "Hola CMP SPA, me gustaría agendar el servicio: ",
   whatsappDefaultMsg:
     "Hola CMP SPA, me gustaría solicitar información sobre sus servicios.",
   address:
