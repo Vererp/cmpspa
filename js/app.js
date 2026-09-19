@@ -316,14 +316,20 @@ document.addEventListener('DOMContentLoaded', () => {
       bookingForm.addEventListener('submit', (e) => {
         e.preventDefault();
         
-        const name = document.getElementById('bookingName').value;
-        const phone = document.getElementById('bookingPhone').value;
+        const name = document.getElementById('bookingName').value.trim();
+        const phone = document.getElementById('bookingPhone').value.trim();
         const service = document.getElementById('bookingServiceSelect').value;
         const date = document.getElementById('bookingDate').value;
-        const notes = document.getElementById('bookingNotes').value;
+        const notes = document.getElementById('bookingNotes').value.trim();
 
-        const msg = `Hola CMP SPA, me gustaría agendar una cita.%0A%0A*Nombre:* ${name}%0A*Teléfono:* ${phone}%0A*Tratamiento:* ${service}%0A*Fecha deseada:* ${date}%0A*Notas:* ${notes || 'Sin observaciones'}`;
-        const whatsappUrl = `https://wa.me/${CLINIC_INFO.whatsapp}?text=${msg}`;
+        const textMsg = `Hola ${CLINIC_INFO.name}, me gustaría agendar una cita.\n\n` +
+          `*Nombre:* ${name}\n` +
+          `*Teléfono:* ${phone}\n` +
+          `*Tratamiento:* ${service}\n` +
+          `*Fecha deseada:* ${date}\n` +
+          `*Notas:* ${notes ? notes : 'Sin observaciones'}`;
+
+        const whatsappUrl = `https://wa.me/${CLINIC_INFO.whatsapp}?text=${encodeURIComponent(textMsg)}`;
         
         window.open(whatsappUrl, '_blank');
       });
