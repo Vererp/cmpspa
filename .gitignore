@@ -1,0 +1,183 @@
+# ==========================================
+# Archivos de Sistema Operativo
+# ==========================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+._*
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+desktop.ini
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+$RECYCLE.BIN/
+
+# Linux
+.directory
+.hidden
+*~
+.Trash-*
+.nfs*
+
+# ==========================================
+# Entornos de Desarrollo e IDEs
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.sublime-workspace
+.sublime-project
+
+# ==========================================
+# Python y Entornos Virtuales
+# ==========================================
+# Caché de bytes
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Empaquetado y distribución
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Android
+# ==========================================
+# Build
+/build/
+.externalNativeBuild/
+.cxx/
+captures/
+.gradle/
+
+# Archivos de configuración locales
+local.properties
+key.properties
+
+# Archivos compilados y empaquetados
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Keystores y firmas
+*.jks
+*.keystore
+
+# ==========================================
+# Xcode (iOS / macOS)
+# ==========================================
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+DerivedData/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# ==========================================
+# Julia
+# ==========================================
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# Directorios de compilación y documentación
+docs/build/
+docs/site/
+
+# (Opcional) Ignorar el Manifest si se está desarrollando un paquete (no una app final)
+# Manifest.toml
+
+# ==========================================
+# R
+# ==========================================
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
+*-Ex.R
+/*.tar.gz
+/*.Rcheck/
+.Rproj.user/
+
+# ==========================================
+# Go (Golang)
+# ==========================================
+# Binarios
+/bin/
+/pkg/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Archivos de test generados
+*.test
+*.out
+
+# ==========================================
+# Typst
+# ==========================================
+# Archivos exportados o temporales (Descomentar según necesidad)
+# *.pdf
