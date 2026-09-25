@@ -10,41 +10,41 @@ const CATEGORIES = [
 const SERVICES_DATA = [
   {
     id: "fac-1",
-    title: "Limpieza Facial Profunda Premium",
-    category: "faciales",
-    categoryName: "Tratamientos Faciales",
+    title: "Depilación láser",
+    category: "corporales",
+    categoryName: "Tratamientos Faciales / Corporales",
     shortDescription:
-      "Higienización cutánea integral con vaporozono, exfoliación ultrasónica y mascarilla de colágeno.",
+    "Dile adiós al vello para siempre y recupera tu libertad.",
     fullDescription:
-      "Un tratamiento facial exhaustivo diseñado para desintoxicar la piel, remover células muertas, puntos negros e impurezas acumuladas. Incluye diagnóstico digital de la piel, vaporozono desincrustante, extracción manual minuciosa, pala ultrasónica, alta frecuencia antiséptica y un masaje facial drenante acompañado de mascarilla hidroplástica según tu tipo de piel.",
-    price: "$850 MXN",
-    priceNumber: 850,
+    "¿Te imaginas despertarte cada mañana sin preocuparte por depilarte? Con nuestro sistema de depilación láser diodo, la piel suave y perfecta ya no es un deseo de un día, sino tu nueva realidad.",
+    price: "$2,200 MXN",
+    priceNumber: 0,
     duration: "60 min",
-    image: "assets/images/facial-limpieza.svg",
+    image: "assets/images/img12.jpeg",
     badge: "Más Popular",
     benefits: [
-      "Desobstrucción profunda de poros y eliminación de puntos negros",
-      "Mascarilla de nutrición e hidratación según tipo de piel",
-      "Aplicación de alta frecuencia para oxigenación cutánea",
-      "Mejora inmediata de la textura y luminosidad facial",
+      "Resultados desde la primera sesión",
+      "Sin dolor y con maxima comodidad",
+      "Apto para todas las pieles",
+      "Adios a la foliculitis",
     ],
     recommendations:
-      "Recomendado realizar cada 21 a 30 días para mantener la salud y frescura del rostro.",
+    "",
   },
   {
     id: "fac-2",
-    title: "HydraFacial Glow & Rejuvenecimiento",
+    title: "Limpieza profunda",
     category: "faciales",
-    categoryName: "Tratamientos Faciales",
+    categoryName: "Faciales / HydroFacial",
     shortDescription:
-      "Hidradermoabrasión con sueros nutritivos, péptidos y terapia de luz LED revitalizante.",
+    "Hidrodermoabrasión con sueros nutritivos, péptidos y terapia de luz LED revitalizante.",
     fullDescription:
-      "La tecnología más avanzada en renovación facial. Combina la exfoliación por vórtice de agua con la infusión profunda de sueros ricos en ácido hialurónico, antioxidantes y péptidos regeneradores. Finaliza con fototerapia LED para estimular la producción natural de colágeno.",
-    price: "$1,400 MXN",
-    priceNumber: 1400,
+    "Incluye: Limpieza, exfoliación, apertura de poros, extracción de impurezas, mascarilla, hidratante y protector solar.",
+    price: "$2,200 MXN",
+    priceNumber: 0,
     duration: "75 min",
-    image: "assets/images/facial-hydra.svg",
-    badge: "Recomendado",
+    image: "assets/images/img1.jpeg",
+    badge: "Más Popular",
     benefits: [
       "Limpieza, exfoliación e hidratación simultánea sin dolor",
       'Efecto "Glow" iluminador instantáneo previa a eventos',
@@ -52,22 +52,22 @@ const SERVICES_DATA = [
       "Reducción visible de poros dilatados y finas líneas",
     ],
     recommendations:
-      "Ideal antes de eventos especiales o como mantenimiento mensual antiedad.",
+    "Ideal antes de eventos especiales o como mantenimiento mensual antiedad.",
   },
   {
     id: "fac-3",
-    title: "Peeling Químico Renovador Cutáneo",
+    title: "Anti acné",
     category: "faciales",
-    categoryName: "Tratamientos Faciales",
+    categoryName: "Faciales / HydroFacial",
     shortDescription:
       "Exfoliación médica suave con alfa y beta hidroxiácidos para unificar el tono y atenuar manchas.",
     fullDescription:
       "Tratamiento especializado con ácidos dermatológicos (mándelico, glicólico o salicílico) seleccionados a la medida de tu piel. Estimula la renovación celular profunda, ayuda a desvanecer manchas de sol o acné y atenúa líneas de expresión.",
-    price: "$1,100 MXN",
+    price: "$2,200 MXN",
     priceNumber: 1100,
     duration: "50 min",
-    image: "assets/images/facial-peeling.svg",
-    badge: null,
+    image: "assets/images/img2.jpeg",
+    badge: "Recomendado",
     benefits: [
       "Atenuación de hiperpigmentación y manchas solares",
       "Regulación de la producción de sebo en pieles grasas",
@@ -78,33 +78,33 @@ const SERVICES_DATA = [
       "Uso obligatorio de bloqueador solar post-tratamiento. Evitar exposición solar directa durante 5 días.",
   },
   {
-    id: "corp-1",
-    title: "Modelado Corporal & Cavitación / Radiofrecuencia",
-    category: "corporales",
-    categoryName: "Cuidado Corporal",
+    id: "fac-4",
+    title: "Rejuvenecimiento",
+    category: "faciales",
+    categoryName: "Faciales / HydroFacial",
     shortDescription:
-      "Reducción de medidas mediante ultracavitación, radiofrecuencia y drenaje linfático asistido.",
+    "Micropunción eléctrica con sueros de factores de crecimiento y vitaminas biológicas.",
     fullDescription:
-      "Sesión integral para moldear la silueta y combatir la grasa localizada en abdomen, cintura, brazos o muslos. La ultracavitación rompe los adipocitos, mientras que la radiofrecuencia tensa la piel y el drenaje linfático moviliza las toxinas para su eliminación natural.",
-    price: "$950 MXN",
-    priceNumber: 950,
-    duration: "60 min",
-    image: "assets/images/corp-modelado.svg",
-    badge: "Efectivo",
+    "Dispositivo médico de microagujas estériles que genera microcanales en la piel para penetrar principios activos concentrated (ácido hialurónico, péptidos y vitamina C). Estimula la regeneración cutánea, reduce cicatrices de acné y disminuye arrugas.",
+    price: "$2,200 MXN",
+    priceNumber: 0,
+    duration: "75 min",
+    image: "assets/images/img13.jpeg",
+    badge: "Alta Eficacia",
     benefits: [
-      "Reducción focalizada de adiposidad rebelde",
-      "Estimulación del colágeno para firmeza cutánea",
-      "Mejora de la circulación y eliminación de retención de líquidos",
-      "Sesiones personalizadas por zona de interés",
+      "Regeneración profunda de la matriz extracelular",
+      "Disminución de cicatrices, marcas de acné y poros",
+      "Aumento significativo de la densidad y firmeza cutánea",
+      "Incluye mascarilla descongestiva de biocelulosa",
     ],
     recommendations:
-      "Beber al menos 2 litros de agua el día del tratamiento para facilitar la eliminación de toxinas.",
+    "Requiere anestesia tópica suave. Evitar maquillaje y sol durante 48 horas post-sesión.",
   },
   {
-    id: "corp-2",
-    title: "Tratamiento Anticelulítico & Maderoterapia",
-    category: "corporales",
-    categoryName: "Cuidado Corporal",
+    id: "fac-5",
+    title: "Antimanchas",
+    category: "faciales",
+    categoryName: "Faciales / HydroFacial",
     shortDescription:
       "Técnica holística con utensilios de madera nobles y vacumterapia para alisar la piel de naranja.",
     fullDescription:
@@ -112,7 +112,7 @@ const SERVICES_DATA = [
     price: "$900 MXN",
     priceNumber: 900,
     duration: "60 min",
-    image: "assets/images/corp-madero.svg",
+    image: "assets/images/img7.jpeg",
     badge: null,
     benefits: [
       "Disminución visible del aspecto de piel de naranja",
@@ -124,10 +124,10 @@ const SERVICES_DATA = [
       "Se recomienda paquete de 6 a 8 sesiones para resultados óptimos a largo plazo.",
   },
   {
-    id: "corp-3",
-    title: "Exfoliación Corporal Hidratante & Envoltura Spa",
-    category: "corporales",
-    categoryName: "Cuidado Corporal",
+    id: "fac-6",
+    title: "Hidratación intensa",
+    category: "faciales",
+    categoryName: "Faciales / HydroFacial",
     shortDescription:
       "Ritual renovador con sales de mar, manteca de karité y envoltura nutri-reparadora.",
     fullDescription:
@@ -135,8 +135,8 @@ const SERVICES_DATA = [
     price: "$1,200 MXN",
     priceNumber: 1200,
     duration: "75 min",
-    image: "assets/images/corp-exfoliacion.svg",
-    badge: "Relax VIP",
+    image: "assets/images/img5.jpeg",
+    badge: null,
     benefits: [
       "Piel extremadamente suave, nutrida e hidratada",
       "Sensación de ligereza y descanso generalizado",
@@ -146,10 +146,10 @@ const SERVICES_DATA = [
     recommendations: "Tratamiento perfecto previo a eventos o vacaciones.",
   },
   {
-    id: "ant-1",
-    title: "Radiofrecuencia Facial Tripolar / Efecto Lifting",
-    category: "antiedad",
-    categoryName: "Rejuvenecimiento",
+    id: "fac-7",
+    title: "Microneedling facial",
+    category: "faciales",
+    categoryName: "Microneedling",
     shortDescription:
       "Estímulo térmico profundo para tensado inmediato y producción intensiva de elastina.",
     fullDescription:
@@ -157,7 +157,7 @@ const SERVICES_DATA = [
     price: "$1,300 MXN",
     priceNumber: 1300,
     duration: "60 min",
-    image: "assets/images/antiedad-radio.svg",
+    image: "assets/images/img15.jpeg",
     badge: "Lifting Sin Cirugía",
     benefits: [
       "Efecto tensor e iluminador de aplicación inmediata",
@@ -169,10 +169,10 @@ const SERVICES_DATA = [
       "Para un efecto prolongado se sugieren 4 a 6 sesiones quincenales.",
   },
   {
-    id: "ant-2",
-    title: "Dermapen / Microneedling con Ácido Hialurónico",
-    category: "antiedad",
-    categoryName: "Rejuvenecimiento",
+    id: "fac-8",
+    title: "Piel de porcelana (efecto BB Glow)",
+    category: "faciales",
+    categoryName: "Microneedling",
     shortDescription:
       "Micropunción eléctrica con sueros de factores de crecimiento y vitaminas biológicas.",
     fullDescription:
@@ -180,7 +180,7 @@ const SERVICES_DATA = [
     price: "$1,650 MXN",
     priceNumber: 1650,
     duration: "75 min",
-    image: "assets/images/antiedad-dermapen.svg",
+    image: "assets/images/img11.jpeg",
     badge: "Alta Eficacia",
     benefits: [
       "Regeneración profunda de la matriz extracelular",
@@ -192,10 +192,10 @@ const SERVICES_DATA = [
       "Requiere anestesia tópica suave. Evitar maquillaje y sol durante 48 horas post-sesión.",
   },
   {
-    id: "mas-1",
-    title: "Masaje Descontracturante Profundo",
-    category: "masajes",
-    categoryName: "Masajes & Relax",
+    id: "fac-9",
+    title: "BB Lips (efecto volumen y color)",
+    category: "faciales",
+    categoryName: "Microneedling",
     shortDescription:
       "Terapia muscular focalizada para liberar tensiones severas en espalda, cuello y hombros.",
     fullDescription:
@@ -203,7 +203,7 @@ const SERVICES_DATA = [
     price: "$950 MXN",
     priceNumber: 950,
     duration: "60 min",
-    image: "assets/images/masaje-descontracturante.svg",
+    image: "assets/images/img3.jpeg",
     badge: null,
     benefits: [
       "Alivio eficaz de dolores musculares en zona cérvico-dorsal",
@@ -215,10 +215,10 @@ const SERVICES_DATA = [
       "Combinar con estiramientos diarios y buena hidratación post-masaje.",
   },
   {
-    id: "mas-2",
-    title: "Masaje Relajante Holístico con Aromaterapia",
-    category: "masajes",
-    categoryName: "Masajes & Relax",
+    id: "corp-1",
+    title: "Eliminación de estrías",
+    category: "corporal",
+    categoryName: "Corporal",
     shortDescription:
       "Ritual corporal suave con aceites de lavanda y velas calientes de masaje.",
     fullDescription:
@@ -226,7 +226,7 @@ const SERVICES_DATA = [
     price: "$890 MXN",
     priceNumber: 890,
     duration: "60 min",
-    image: "assets/images/masaje-relajante.svg",
+    image: "assets/images/img8.jpeg",
     badge: "Favorito",
     benefits: [
       "Reducción drástica de niveles de estrés y ansiedad",
@@ -238,10 +238,10 @@ const SERVICES_DATA = [
       "Ideal al finalizar una semana intensa de trabajo o como autoregalo de bienestar.",
   },
   {
-    id: "mas-3",
-    title: "Masaje con Piedras Volcánicas Calientes",
-    category: "masajes",
-    categoryName: "Masajes & Relax",
+    id: "corp-2",
+    title: "Eliminación de cicatrices",
+    category: "corporal",
+    categoryName: "Corporal",
     shortDescription:
       "Terapia geotermal con piedras compuestas de basalto para una relajación profunda.",
     fullDescription:
@@ -249,7 +249,7 @@ const SERVICES_DATA = [
     price: "$1,100 MXN",
     priceNumber: 1100,
     duration: "75 min",
-    image: "assets/images/masaje-piedras.svg",
+    image: "assets/images/img4.jpeg",
     badge: null,
     benefits: [
       "Alivio profundo del dolor muscular por termoterapia",
@@ -261,10 +261,10 @@ const SERVICES_DATA = [
       "No recomendado en personas con problemas vasculares severos o fiebre.",
   },
   {
-    id: "pro-1",
-    title: "Paquete Glow Ritual: Facial Premium + Masaje Relax",
-    category: "promociones",
-    categoryName: "Paquetes & Promociones",
+    id: "corp-3",
+    title: "Retiro de verrugas",
+    category: "corporal",
+    categoryName: "Corporal",
     shortDescription:
       "Combo exclusivo de Limpieza Facial Profunda + Masaje Relajante Holístico.",
     fullDescription:
@@ -272,8 +272,8 @@ const SERVICES_DATA = [
     price: "$1,490 MXN",
     priceNumber: 1490,
     duration: "120 min",
-    image: "assets/images/combo-glow.svg",
-    badge: "Ahorra 18%",
+    image: "assets/images/img6.jpeg",
+    badge: null,
     benefits: [
       "Tratamiento completo facial y corporal en una sola visita",
       "Incluye copa de cortesía (té relajante o mimosa)",
@@ -284,10 +284,10 @@ const SERVICES_DATA = [
       "Ideal para días de spa individual, regalo de cumpleaños o anniversarios.",
   },
   {
-    id: "pro-2",
-    title: "Paquete Dúo Relax Spa (Para 2 Personas)",
-    category: "promociones",
-    categoryName: "Paquetes & Promociones",
+    id: "corp-4",
+    title: "Renacimiento folicular",
+    category: "corporal",
+    categoryName: "Corporal",
     shortDescription:
       "Experiencia compartida de masaje relajante + mini facial hidratante para parejas o amigas.",
     fullDescription:
@@ -295,8 +295,8 @@ const SERVICES_DATA = [
     price: "$2,200 MXN",
     priceNumber: 2200,
     duration: "90 min",
-    image: "assets/images/combo-duo.svg",
-    badge: "Edición Dúo",
+    image: "assets/images/img10.jpeg",
+    badge: "Más popular",
     benefits: [
       "Atención en cabina doble ambientada para dos personas",
       "Copa de vino de honor o infusión de la casa con bocadillos",
