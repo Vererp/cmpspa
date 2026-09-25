@@ -20,7 +20,7 @@ const SERVICES_DATA = [
     price: "$2,200 MXN",
     priceNumber: 0,
     duration: "60 min",
-    image: "assets/images/img12.jpeg",
+    image: "assets/images/img9.jpeg",
     badge: "Más Popular",
     benefits: [
       "Resultados desde la primera sesión",
