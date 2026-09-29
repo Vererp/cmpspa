@@ -1,10 +1,10 @@
 const CATEGORIES = [
-  { id: "todos", name: "Todos los Servicios", icon: "sparkles" },
-  { id: "faciales", name: "Tratamientos Faciales", icon: "face" },
-  { id: "corporales", name: "Cuidado Corporal", icon: "body" },
+  { id: "todos", name: "Todos los servicios", icon: "sparkles" },
+  { id: "faciales", name: "Tratamientos saciales", icon: "face" },
+  { id: "corporales", name: "Cuidado corporal", icon: "body" },
   { id: "antiedad", name: "Rejuvenecimiento", icon: "clock" },
-  { id: "masajes", name: "Masajes & Relax", icon: "spa" },
-  { id: "promociones", name: "Paquetes & Promos", icon: "tag" },
+  { id: "masajes", name: "Masajes & relax", icon: "spa" },
+  { id: "promociones", name: "Paquetes & promos", icon: "tag" },
 ];
 
 const SERVICES_DATA = [

@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (!bookingServiceSelect) return;
 
     const options = SERVICES_DATA.map(service => 
-      `<option value="${service.title}">${service.title} (${service.price})</option>`
+      `<option value="${service.title}">${service.title}</option>`
     ).join('');
 
     bookingServiceSelect.innerHTML = `<option value="">-- Selecciona un tratamiento --</option>` + options;
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     servicesGrid.innerHTML = state.filteredServices.map(service => {
       const badgeHtml = service.badge ? `<span class="card-badge">${service.badge}</span>` : '';
-      const msgPrefix = CLINIC_INFO.whatsappMessage || "Hola, me gustaría agendar el servicio: ";
+      const msgPrefix = CLINIC_INFO.whatsappMessage || "Hola, me gustaría obtener más información sobre el siguiente servicio: ";
       const whatsappMessage = encodeURIComponent(`${msgPrefix}${service.title}`);
       const whatsappUrl = `https://wa.me/${CLINIC_INFO.whatsapp}?text=${whatsappMessage}`;
 
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // WhatsApp CTA button
-    const msgPrefix = CLINIC_INFO.whatsappMessage || "Hola, me gustaría agendar el servicio: ";
+    const msgPrefix = CLINIC_INFO.whatsappMessage || "Hola, me gustaría obtener más información sobre el siguiente servicio: ";
     const whatsappMessage = encodeURIComponent(`${msgPrefix}${service.title}`);
     modalBookWhatsappBtn.href = `https://wa.me/${CLINIC_INFO.whatsapp}?text=${whatsappMessage}`;
 
@@ -324,7 +324,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const date = document.getElementById('bookingDate').value;
         const notes = document.getElementById('bookingNotes').value.trim();
 
-        const textMsg = `Hola ${CLINIC_INFO.name}, me gustaría agendar una cita.\n\n` +
+        const textMsg = `Hola, me gustaría obtener más información.\n\n` +
           `*Nombre:* ${name}\n` +
           `*Teléfono:* ${phone}\n` +
           `*Tratamiento:* ${service}\n` +
