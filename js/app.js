@@ -319,17 +319,9 @@ document.addEventListener('DOMContentLoaded', () => {
         e.preventDefault();
         
         const name = document.getElementById('bookingName').value.trim();
-        const phone = document.getElementById('bookingPhone').value.trim();
         const service = document.getElementById('bookingServiceSelect').value;
-        const date = document.getElementById('bookingDate').value;
-        const notes = document.getElementById('bookingNotes').value.trim();
 
-        const textMsg = `Hola, me gustaría obtener más información.\n\n` +
-          `*Nombre:* ${name}\n` +
-          `*Teléfono:* ${phone}\n` +
-          `*Tratamiento:* ${service}\n` +
-          `*Fecha deseada:* ${date}\n` +
-          `*Notas:* ${notes ? notes : 'Sin observaciones'}`;
+        const textMsg = `Hola, me llamo ${name}, me gustaría obtener más información sobre el tratamiento ${service}.\n\n`;
 
         const whatsappUrl = `https://wa.me/${CLINIC_INFO.whatsapp}?text=${encodeURIComponent(textMsg)}`;
         

@@ -60,7 +60,7 @@ const SERVICES_DATA = [
     shortDescription:
     "El equilibrio perfecto para una piel libre de brotes.",
     fullDescription:
-    "Un protocolo clínico diseñado para calmar, desinflamar y controlar los brotes rebeldes. Purificamos tu piel desde adentro hacia afuera, equilibrando la producción de grasa.",
+    "Un protocolo clínico diseñado para calmar, desinflamar y controlar los brotes rebeldes regulando la producción de grasa.",
     price: "$0 MXN",
     priceNumber: 0,
     duration: "60 min",
@@ -95,7 +95,7 @@ const SERVICES_DATA = [
       "Estimula la producción natural de colágeno y elastina",
     ],
     recommendations:
-    "Ciclo inicial de 4 a 6 sesiones (cada 15 días) para resultados óptimos. Mantener una buena hidratación y aplicar crema nutritiva en casa.",
+    "De 4 a 6 sesiones para resultados óptimos. Mantener una buena hidratación y aplicar crema nutritiva en casa.",
   },
   {
     id: "fac-5",
@@ -105,7 +105,7 @@ const SERVICES_DATA = [
     shortDescription:
       "La luz y uniformidad que tu cutis necesita.",
     fullDescription:
-      "El secreto para un tono de piel parejito y luminoso. Tratamos manchas solares, secuelas de acné o paño (melasma) devolviendo la claridad a tu rostro.",
+      "El secreto para un tono de piel uniforme y luminoso. Tratamos manchas solares, secuelas de acné o paño (melasma) devolviendo la claridad a tu rostro.",
     price: "$0 MXN",
     priceNumber: 0,
     duration: "60 min",
@@ -134,7 +134,7 @@ const SERVICES_DATA = [
     image: "assets/images/img5.jpeg",
     badge: null,
     benefits: [
-      "Devuelve la jugosidad y el 'Glow' natural",
+      "Recupera el 'Glow' natural de tu rostro",
       "Elimina la sensación de tirantez",
       "Fortalece la barrera protectora de la piel",
     ],
@@ -155,6 +155,7 @@ const SERVICES_DATA = [
     image: "assets/images/img15.jpeg",
     badge: "Lifting Sin Cirugía",
     benefits: [
+      "Sin dolor.",
       "Mejora radicalmente la textura de la piel",
       "Disminuye el tamaño del poro, atenúa cicatrices y líneas de expresión finas",
     ],
@@ -181,7 +182,7 @@ const SERVICES_DATA = [
       "Nutre la piel a profundidad",
     ],
     recommendations:
-      "Paquete de 3 a 5 sesiones (cada 15 días) para que el color perdure por meses. No lavar el rostro las primeras 24 horas. Evitar exfoliantes y productos con ácidos (AHA/BHA) para prolongar el efecto.",
+      "Paquete de 3 a 5 sesiones para que el color perdure por meses. No lavar el rostro las primeras 24 horas. Evitar exfoliantes y productos con ácidos (AHA/BHA) para prolongar el efecto.",
   },
   {
     id: "fac-9",
@@ -213,7 +214,7 @@ const SERVICES_DATA = [
     shortDescription:
       "La renovación que tu cuerpo necesita para lucir uniforme.",
     fullDescription:
-      "Un protocolo avanzado enfocado en regenerar el tejido roto. Ideal para difuminar estrías rojas, moradas o blancas causadas por cambios de peso o embarazos.",
+      "Un protocolo avanzado enfocado en regenerar el tejido roto. Ideal para eliminar estrías causadas por cambios de peso o embarazos.",
     price: "$0 MXN",
     priceNumber: 0,
     duration: "60 min",
@@ -242,7 +243,6 @@ const SERVICES_DATA = [
     image: "assets/images/img4.jpeg",
     badge: null,
     benefits: [
-      "Aplana relieves irregulares",
       "Suaviza el tejido duro de la cicatriz",
       "Unifica la textura general de la piel",
     ],
@@ -269,7 +269,7 @@ const SERVICES_DATA = [
       "Evita el roce molesto con la ropa o collares",
     ],
     recommendations:
-    "Por lo general, es de única sesión (con revisión al mes). Mantener la zona limpia y seca, aplicar la pomada cicatrizante indicada y jamás arrancar las costras que se formen.",
+    "Por lo general, es de única sesión. Mantener la zona limpia y seca, aplicar la pomada cicatrizante indicada y jamás arrancar las costras que se formen.",
   },
   {
     id: "corp-4",
@@ -279,7 +279,7 @@ const SERVICES_DATA = [
     shortDescription:
     "La fuerza y vitalidad que tu cabello necesita.",
     fullDescription:
-    "Dale vida y fuerza a tu cabello. Estimulamos directamente el cuero cabelludo con microagujas y nutrientes para frenar la caída y despertar los folículos dormidos.",
+    "Dale vida y fuerza a tu cabello, cejas o barba. Estimulamos directamente los folículos dormidos con microagujas y nutrientes para frenar la caída.",
     price: "$0 MXN",
     priceNumber: 0,
     duration: "60 min",
@@ -292,7 +292,7 @@ const SERVICES_DATA = [
       "Combate la alopecia leve a moderada",
     ],
     recommendations:
-    "Una sesión a la semana o cada 15 días (fase de choque), luego mantenimiento mensual. Asistir con el cabello limpio, no lavar el cabello hasta 24 horas después y evitar gorras apretadas tras la sesión.",
+    "Asistir con el cabello limpio, no lavar el cabello hasta 24 horas después y evitar gorras apretadas tras la sesión.",
   },
 ];
 
@@ -303,9 +303,9 @@ const CLINIC_INFO = {
   phone: "+525662850515",
   whatsapp: "525662850515", // Reemplazar con tu número de WhatsApp con código de país sin +
   whatsappMessage:
-    "Hola CMP SPA, me gustaría agendar el servicio: ",
+    "Hola, me gustaría obtener más información sobre el tratamiento ",
   whatsappDefaultMsg:
-    "Hola CMP SPA, me gustaría solicitar información sobre sus servicios.",
+    "Hola, me gustaría obtener más información sobre el tratamiento ",
   address:
     "Av. Sor Juana #597 casi esquina con Cielito Lindo, Col. Benito Juárez, 57000, Cd. Nezahualcóyotl, Edo. de México.",
   email: "",
